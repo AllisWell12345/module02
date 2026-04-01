@@ -61,7 +61,9 @@ Label: feature / fix
 📌 PR 규칙
 
 제목 : [FEATURE] 강의 등록 기능 구현#12
+
 Assignee: 팀원 2명 지정
+
 Label: feature / fix
 
 ## 4️⃣ 협업 프로세스
