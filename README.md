@@ -21,7 +21,7 @@ src (예시 구조)
  └── assets
 ```
 ⚙️ 기술 스택
-![REACT](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/3840px-React-icon.svg)
+![REACT]([https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/3840px-React-icon.svg](https://img.shields.io/badge/react-61DAFB?style=flat-square&logo=react&logoColor=white))
 
 
 1️⃣ Branch 명명 규칙
