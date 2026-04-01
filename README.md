@@ -6,16 +6,27 @@
 🧩 주요 기능
 
 🗂️ 프로젝트 구조
+
 // 예시 구조
+
 src
+ 
  ├── pages
+
  │    ├── lecture
+
  │    ├── student
+
  │    ├── lecturer
+
  │    └── admin
+
  ├── components
+
  ├── css
+
  ├── js
+
  └── assets
 
 ⚙️ 기술 스택
