@@ -1,4 +1,5 @@
 📚 강의 등록 및 신청 플랫폼
+
 📌 프로젝트 소개
 
 🎯 프로젝트 목표
@@ -10,23 +11,14 @@
 // 예시 구조
 
 src
- 
  ├── pages
-
  │    ├── lecture
-
  │    ├── student
-
  │    ├── lecturer
-
  │    └── admin
-
  ├── components
-
  ├── css
-
  ├── js
-
  └── assets
 
 ⚙️ 기술 스택
