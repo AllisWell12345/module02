@@ -7,16 +7,16 @@
 
 🗂️ 프로젝트 구조
 // 예시 구조
-src/
- ├── pages/
- │    ├── lecture/
- │    ├── student/
- │    ├── lecturer/
- │    └── admin/
- ├── components/
- ├── css/
- ├── js/
- └── assets/
+src
+ ├── pages
+ │    ├── lecture
+ │    ├── student
+ │    ├── lecturer
+ │    └── admin
+ ├── components
+ ├── css
+ ├── js
+ └── assets
 
 ⚙️ 기술 스택
 React
