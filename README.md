@@ -31,16 +31,19 @@ React
 브랜치 prefix로 작업 성격을 구분합니다.
 
 유형	설명	예시
-feature	새로운 기능 개발	feature/lecture-create#12
-fix	긴급 버그 수정	fix/login-error#5
+| 유형 | 설명 | 예시 |
+|------|------|------|
+| feature | 새로운 기능 개발 | feature/lecture-create#12 |
+| fix | 긴급 버그 수정 | fix/login-error#5 |
 
 2️⃣ Commit Message 규칙
 📌 Prefix 종류
-Prefix	의미
-[FEATURE]	새로운 기능 추가
-[FIX]	버그 수정
-[RENAME]	파일/폴더명 변경
-[STYLE]	코드 변경 없는 스타일 수정
+| Prefix | 의미 |
+|--------|------|
+| [FEATURE] | 새로운 기능 추가 |
+| [FIX] | 버그 수정 |
+| [RENAME] | 파일/폴더명 변경 |
+| [STYLE] | 코드 변경 없는 스타일 수정 |
 
 📌 작성 방식
 [FEATURE] 강의 등록 기능 구현#12
@@ -72,6 +75,7 @@ PR 제목
 [FEATURE] 강의 등록 기능 구현#12
 
 4️⃣ 협업 프로세스
+
 1. 기능 단위로 Issue 생성
 2. 브랜치 생성 후 작업 진행
 3. 작업 완료 후 push (⚠️ push 전 팀원에게 공유)
