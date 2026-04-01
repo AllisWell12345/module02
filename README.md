@@ -8,9 +8,8 @@
 
 🗂️ 프로젝트 구조
 
-// 예시 구조
 ``` bash
-src
+src (예시 구조)
  ├── pages
  │    ├── lecture
  │    ├── student
