@@ -1,8 +1,11 @@
 ## 📚 강의 등록 및 신청 플랫폼
 
+
 ## 🎯 프로젝트 목표
 
+
 ## 🧩 주요 기능
+
 
 ## 🗂️ 프로젝트 구조
 
@@ -18,6 +21,8 @@ src (예시 구조)
  ├── js
  └── assets
 ```
+
+
 ## ⚙️ 기술 스택
 
 ![REACT](https://img.shields.io/badge/react-61DAFB?style=flat-square&logo=react&logoColor=white)
@@ -65,6 +70,7 @@ Label: feature / fix
 Assignee: 팀원 2명 지정
 
 Label: feature / fix
+
 
 ## 4️⃣ 협업 프로세스
 
