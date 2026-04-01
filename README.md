@@ -1,12 +1,12 @@
-##📚 강의 등록 및 신청 플랫폼
+## 📚 강의 등록 및 신청 플랫폼
 
-##📌 프로젝트 소개
+## 📌 프로젝트 소개
 
-##🎯 프로젝트 목표
+## 🎯 프로젝트 목표
 
-##🧩 주요 기능
+## 🧩 주요 기능
 
-##🗂️ 프로젝트 구조
+## 🗂️ 프로젝트 구조
 
 ``` bash
 src (예시 구조)
@@ -20,12 +20,12 @@ src (예시 구조)
  ├── js
  └── assets
 ```
-##⚙️ 기술 스택
+## ⚙️ 기술 스택
 
 ![REACT](https://img.shields.io/badge/react-61DAFB?style=flat-square&logo=react&logoColor=white)
 
 
-##1️⃣ Branch 명명 규칙
+## 1️⃣ Branch 명명 규칙
 
 브랜치 prefix로 작업 성격을 구분합니다.
 
@@ -36,7 +36,7 @@ src (예시 구조)
 | fix | 긴급 버그 수정 | fix/login-error#5 |
 
 
-##2️⃣ Commit Message 규칙
+## 2️⃣ Commit Message 규칙
 
 📌 Prefix 종류
 | Prefix | 의미 |
@@ -52,7 +52,7 @@ src (예시 구조)
 ✔️ 커밋 메시지를 통해 이슈 자동 종료
 
 
-##3️⃣ Issue & PR 규칙
+## 3️⃣ Issue & PR 규칙
 
 📌 Issue 작성 규칙
 
@@ -73,7 +73,7 @@ Label: feature / fix
 제목 : [FEATURE] 강의 등록 기능 구현#12
 Assignee: 팀원 2명 지정
 
-##4️⃣ 협업 프로세스
+## 4️⃣ 협업 프로세스
 
 1. 기능 단위로 Issue 생성
 2. 브랜치 생성 후 작업 진행
