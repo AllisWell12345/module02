@@ -56,20 +56,13 @@ src (예시 구조)
 
 제목 : [FEATURE] 강의 등록 기능 구현#12
 
-본문
-
-작업 목적
-해야 할 일 목록
-
-필수 설정
-
-
 Label: feature / fix
 
 📌 PR 규칙
 
 제목 : [FEATURE] 강의 등록 기능 구현#12
 Assignee: 팀원 2명 지정
+Label: feature / fix
 
 ## 4️⃣ 협업 프로세스
 
