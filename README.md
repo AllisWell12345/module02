@@ -81,3 +81,78 @@ Label: feature / fix
 5. 팀원 2명 모두 리뷰 진행
 6. 리뷰 완료 후 1명이 merge
 7. 전체 pull 받아 최신 상태 유지
+
+## 컴포넌트 구조 설계
+
+``` bash
+([App]
+	├──MainLayOut
+			├── Header
+			├── Nav
+			├── Side
+			├── Outlet
+						├── HomePage
+									├── SearchBar (검색창)
+									├── CategorySelector (카테고리바)
+									├── LectureItem (mode=box)
+						├── LectureDetailPage (mode=box | mode=list) (강의상세조회)
+									├── LectureItem (mode=detail | mode=myDetail)
+						├── MyLecturePage (내 강의)
+									├── LectureItem (mode=list)
+						├── ProjectManagePage (프로젝트관리)
+									├── LectureItem (mode=proList)
+						├── InterviewManagePage (모의면접관리)
+									├── LectureItem (mode=invList)
+						├── ProjectTotalPage (프로젝트 전체 조회)
+									├── ProjectItem (mode=student | mode=teacher)
+						├── ProjectDetailPage (프로젝트 상세 조회)
+									├── ProjectItem (mode=detail | mode=myDetail)
+						├── InterviewDetailPage (모의면접 상세 조회)
+									├── interviewItem (mode=detail)
+						
+						├── CartPage (수강생-장바구니)
+									├── CartItem
+						├── ProjectPage (수강생-프로젝트 제출)
+									├── ProjectTemplate
+									├── Project
+						├── ProjectWritePage (수강생-프로젝트 작성)
+									├── ProjectForm
+						├── InterviewNoticePage (수강생-모의면접안내)
+						├── InterVIewPracticePage (수강생-모의면접진행)
+									├── InterviewQuestion
+											
+						├── LectureRegistPage (강사-강의등록)
+									├── LectureForm (mode=regist)
+						├── LectureEditPage (강의수정)
+									├── LectureForm (mode=edit)
+						├── ProjectRegistPage (강사-프로젝트등록)
+									├── ProjectTemplateForm (mode=regist)
+						├── ProjectEditPage (강사-프로젝트수정)
+									├── ProjectTemplateForm (mode=edit)
+						├── InterviewRegistPage (강사-모의면접등록)
+									├── InterviewForm (mode=regist)
+						├── InterviewEditPage (강사-모의면접수정)
+									├── InterviewForm (mode=edit)
+						├── InterviewTotalPage (강사-모의면접 전체 조회)
+									├── interviewItem (mode=list)
+						
+						
+						├── ManagerDashboardPage (관리자-대시보드)
+									├── userItem(mode=latest)
+						├── UserManagePage (관리자-회원관리)
+									├── SearchBar (검색창)
+									├── userItem(mode=list)
+						├── LectureManagePage (관리자-강의관리)
+									├── SearchBar (검색창)
+									├──LectureItem (mode=list)
+						├── DataManagePage (관리자-자료관리)
+									├── SearchBar (검색창)
+									├── PotfolioItem
+						
+						├── LoginPage
+						
+						├── SignPage
+									├── SignForm
+									
+			├── Footer
+```
