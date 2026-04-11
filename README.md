@@ -1,26 +1,64 @@
 ## 📚 강의 등록 및 신청 플랫폼
 
+### 단순 강의 사이트를 넘어선 취업 준비 플랫폼
 
 ## 🎯 프로젝트 목표
 
+인터넷 강의를 수강하는 것처럼 쉽게 접근할 수 있고, 온라인 환경에서 학습과 취업 준비를 동시에 할 수 있는 환경을 제공하는 플랫폼을 설계한다.
 
 ## 🧩 주요 기능
 
+### 1. 강의 종료 → 프로젝트 자동 연결
 
-## 🗂️ 프로젝트 구조
+### 기능 구조
 
-``` bash
-src (예시 구조)
- ├── pages
- │    ├── lecture
- │    ├── student
- │    ├── lecturer
- │    └── admin
- ├── components
- ├── css
- ├── js
- └── assets
-```
+- 강의 완료 시 자동으로 프로젝트 열림
+- 난이도 선택 가능
+    - 기본 / 심화 / 실무형
+
+### 예시 (프론트 기준)
+
+- React 강의 완료 →
+    - “Todo 앱 만들기” (기본)
+    - “API 연동 게시판” (심화)
+    - “실제 서비스 클론” (실무형)
+
+### 2. 프로젝트 진행 환경 제공
+
+### 기능
+
+- 프로젝트 요구사항 제공 (기획서 느낌)
+- 체크리스트 (해야 할 기능들)
+- 프로젝트 결과물 업로드
+
+### 추가하면 좋은 것
+
+- 기본 템플릿 ( 문제 상황 ) 제공
+- 단계별 힌트 시스템
+
+### 3. 결과물 리뷰 ( 공개 여부 설정 가능 )
+
+### 강사의 리뷰 ( 비공개도 접근 가능 )
+
+- 강사의 피드백 가능
+- 실무 기준 평가
+- 해당 프로젝트에 관련된 예상 면접 질문 제공
+
+### 타 수강생의 리뷰 ( 비공개는 접근 불가 )
+
+- 수강생끼리 코드 리뷰 가능
+- Q&A
+
+### 📁 4. 내 포트폴리오
+
+### 강의별 관리
+
+- 강의별 프로젝트 결과물 관리
+- 해당 프로젝트에 대한 회고 작성 가능
+
+### 🎯 5. 면접 준비
+
+### 해당 강의 내용 중 면접에서 질문할만한 이론적 내용 정리 제공
 
 
 ## ⚙️ 기술 스택
@@ -155,4 +193,92 @@ Label: feature / fix
 									├── SignForm
 									
 			├── Footer
+```
+
+## 파일 구조 설계
+``` bash
+[App]
+[main]
+[src]
+	├──[assets]
+				├──[img]
+	├──[components]
+				├──[manager]
+							├── userItem.jsx
+							├── PortfolioItem.jsx
+				├──[auth]
+				├──[lecture]
+							├── LectureItem.jsx
+				├──[project]
+							├── ProjectItem.jsx
+							├── ProjectTemplateForm.jsx
+							├── ProjectTemplate.jsx
+							├── ProjectForm.jsx
+				├──[interview]
+							├── InterviewItem.jsx
+							├── InterviewForm.jsx
+							├── InterviewQuestion.jsx
+				├── [layout]
+							├── Header.jsx
+							├── Nav.jsx
+							├── footer.jsx
+							├── sideBar.jsx
+	├──[firebase]
+				├── config.js
+	├──[hooks]
+				├── useModal.js
+	├──[layouts]
+				├── MainLayout.jsx
+				├── MainLayout.css
+				├── PortfolioLayout.jsx
+				├── PortfolioLayout.css
+				├── ManagerLayout.jsx
+				├── ManagerLayout.css
+	├──[pages]
+				├──[common]
+							├── HomePage.jsx
+							├── LectureDetailPage.jsx
+							├── MyLecturePage.jsx
+							├── ProjectManagePage.jsx
+							├── InterviewManagePage.jsx
+							├── ProjectTotalPage.jsx
+							├── ProjectDetailPage.jsx
+							├── InterviewDetailPage.jsx
+				├──[student]
+							├── CartPage.jsx
+							├── ProjectPage.jsx
+							├── ProjectWritePage.jsx
+							├── InterviewNoticePage.jsx
+							├── InterviewPracticePage.jsx
+				├──[teacher]
+							├── LectureRegistPage.jsx
+							├── LectureEditPage.jsx
+							├── PrjectRegistPage.jsx
+							├── PrjectEditPage.jsx
+							├── InterviewRegistPage.jsx
+							├── InterviewEditPage.jsx
+							├── InterviewTotalPage.jsx
+				├──[manager]
+              ├── ManagerDashboardPage.jsx
+              ├── UserManagePage.jsx
+              ├── LectureManagePage.jsx
+              ├── DataManagePage.jsx
+        ├──[Info]
+              ├── LoginPage.jsx
+              ├── SignUpPage.js
+	├──[services]
+				├── cartService.js
+				├── LectureService.js
+				├── ProjectService.js
+				├── InterviewService.js
+				├── AuthService.js
+				├── UserService.js ?
+	├──[store]
+				├── store.js
+				├── cartSlice.js
+				├── LectureSlice.js
+				├── ProjectSlice.js
+				├── InterviewSlice.js
+				├── AuthSlice.js
+				├── UserSlice.js ?
 ```
